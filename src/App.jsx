@@ -1,8 +1,8 @@
-import ClassCard from './components/ClassCard'
-import ClassCardCarousel from './components/ClassCardCarousel'
-import Header from './components/Header'
-import MainCarousel from './components/MainCarousel'
-import NavBar from './components/NavBar'
+import ClassCardCarousel from './components/ClassCardCarousel';
+import Header from './components/Header';
+import MainCarousel from './components/MainCarousel';
+import NavBar from './components/NavBar';
+import NewProductCardCarousel from './components/NewProductCardCarousel';
 
 function App() {
   
@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <MainCarousel />
       <ClassCardCarousel />
+      <NewProductCardCarousel />
     </>
   )
 }
