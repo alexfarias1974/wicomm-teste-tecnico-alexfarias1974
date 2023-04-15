@@ -4,7 +4,7 @@ import Header from './components/Header';
 import MainCarousel from './components/MainCarousel';
 import NavBar from './components/NavBar';
 import NewProductCardCarousel from './components/NewProductCardCarousel';
-import Promotions from './components/Promotions';
+import PromotionsCarousel from './components/PromotionsCarousel';
 
 function App() {
   
@@ -16,7 +16,7 @@ function App() {
       <ClassCardCarousel />
       <NewProductCardCarousel />
       <BlackSkullTeam />
-      <Promotions />
+      <PromotionsCarousel />
     </>
   )
 }
