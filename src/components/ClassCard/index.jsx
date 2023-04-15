@@ -1,5 +1,4 @@
 import React from "react";
-import { classProduct } from "../../db/database";
 
 const ClassCard = ({name, img}) => {
     return (

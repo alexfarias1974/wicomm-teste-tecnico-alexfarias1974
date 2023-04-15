@@ -1,6 +1,6 @@
 import { classProduct } from "../../db/database";
 import ClassCard from "../ClassCard";
-import {HiArrowLeft, HiArrowRight} from "react-icons/hi"
+import {HiArrowLeft, HiArrowRight} from "react-icons/hi";
 
 
 const ClassCardCarousel = () => {
@@ -20,8 +20,8 @@ const ClassCardCarousel = () => {
 
     return (
         <div className="product-carousel relative overflow-hidden py-2 px-[70px]">
-            <span className="pre-btn bg-gray2 rounded-sm w-[30px] h-[30px] absolute flex justify-center items-center mt-[130px] left-[65px] text-xl hover:bg-orange2" onClick={btnpressprev}><HiArrowLeft/></span>
-            <span className="next-btn bg-gray2 rounded-sm w-[30px] h-[30px] absolute flex justify-center items-center mt-[130px] right-[65px] text-xl hover:bg-orange2" onClick={btnpressnext}><HiArrowRight/></span>
+            <span className="pre-btn bg-gray2 rounded-sm w-[30px] h-[30px] absolute flex justify-center items-center mt-[130px] left-[65px] hover:bg-orange2" onClick={btnpressprev}><HiArrowLeft/></span>
+            <span className="next-btn bg-gray2 rounded-sm w-[30px] h-[30px] absolute flex justify-center items-center mt-[130px] right-[70px] hover:bg-orange2" onClick={btnpressnext}><HiArrowRight/></span>
             <div className="product-container py-0 px-[10px] flex overflow-x-hidden scroll-smooth gap-4">
                 {classProduct.map((product) => (
                     <ClassCard 
