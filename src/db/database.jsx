@@ -19,6 +19,9 @@ import NewIsolatehd from "../assets/new_product_isolatehd.png";
 import NewBonecrusher from "../assets/new_product_bonecrusher.png";
 import NewPreworkout from "../assets/new_product_preworkout.png";
 import New9eaa from "../assets/new_product_9eaa.png";
+import BlogImg1 from "../assets/blog_img1.png";
+import BlogImg2 from "../assets/blog_img2.png";
+import BlogImg3 from "../assets/blog_img3.png";
 
 
 export const classProduct = [
@@ -155,4 +158,68 @@ export const newProducts = [
         paymentConditions: "Em até 4 x R$ 22,47 sem juros",
 
     },
+];
+
+export const blogNews = [
+    {
+        id: 1,
+        imgNews: BlogImg1,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 2,
+        imgNews: BlogImg2,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 3,
+        imgNews: BlogImg3,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 4,
+        imgNews: BlogImg1,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 5,
+        imgNews: BlogImg2,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 6,
+        imgNews: BlogImg3,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 7,
+        imgNews: BlogImg1,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 8,
+        imgNews: BlogImg2,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 9,
+        imgNews: BlogImg3,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    {
+        id: 10,
+        imgNews: BlogImg1,
+        date: "03.02.23",
+        news: "SAMSON DAUDA APRESENTA FÍSICO IMPRESSIONANTE EM RECENTE GUEST POSING",
+    },
+    
 ]

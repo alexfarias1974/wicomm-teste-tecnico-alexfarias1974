@@ -126,3 +126,49 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.img-container {
+  overflow: hidden;
+  border: 2px solid #000;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+.img-container:hover {
+  background: #2c2c2e;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+.img-container:hover img {
+  height: 100vh;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.img-container:hover .moveArrow {
+  transform: translateX(35px);
+  transition: all 0.3s ease-in-out;
+}
+
+.moveArrow:hover {
+  animation: moveToRight 1s ease;
+  animation-delay: 1000ms;
+}
+
+.box-arrow {
+}
+
+@keyframes moveToRight {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}
