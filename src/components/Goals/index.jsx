@@ -13,7 +13,7 @@ const Goals = () => {
                 <h1 className="font-roboto_condensed font-bold text-[32px] italic text-dark1">OBJETIVOS</h1>
             </div>
 
-            <div className="flex gap-3 mt-3 ml-24">
+            <div className="flex justify-center gap-3 mt-3">
 
                 <div className="img-goal1 w-[277px] h-[340px] flex flex-col-reverse overflow-hidden border-[0.01px] border-solid border-white ">
                     <img
