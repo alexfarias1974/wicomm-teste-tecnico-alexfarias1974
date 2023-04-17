@@ -161,6 +161,31 @@ table {
   animation-delay: 1000ms;
 }
 
+@keyframes moveToRight {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}
+
+.img-goal1:hover .large-slash {
+  transform: translateX(100px);
+  transition: all 0.5s ease-in-out;
+}
+
+.img-goal1:hover h4 {
+  transform: translateX(-30px);
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+}
+
+.large-slash:hover {
+  animation: moveToRight 1s ease;
+  animation-delay: 1000ms;
+}
+
 .box-arrow {
 }
 
@@ -169,6 +194,6 @@ table {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(30px);
+    transform: translateX(100px);
   }
 }

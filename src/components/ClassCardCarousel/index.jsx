@@ -1,8 +1,7 @@
 import React from "react";
 import { classProduct } from "../../db/database";
 import ClassCard from "../ClassCard";
-// import BtnNext from "../../assets/right_arrow_carousel.png";
-import {HiArrowLeft, HiArrowRight} from "react-icons/hi"
+import {HiArrowLeft, HiArrowRight} from "react-icons/hi";
 
 
 const ClassCardCarousel = () => {
