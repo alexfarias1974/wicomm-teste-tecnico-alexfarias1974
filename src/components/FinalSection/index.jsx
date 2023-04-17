@@ -1,12 +1,16 @@
 import { BsFacebook, BsInstagram, BsYoutube, BsTwitter, BsTiktok } from "react-icons/bs";
 import FinalSectionLogo from "../../assets/final_section_logo.png"
+import CCLogos from "../../assets/creditcards_logo.png";
+import VtexColor from "../../assets/vtex_color_logo.png";
+import Ebit from "../../assets/ebit_logo.png";
+
 const FinalSection = () => {
     return (
         <div className="h-[500px] bg-black1 mt-16 flex justify-between">
-            <div className="pl-8">
-                <img src={FinalSectionLogo} alt="" className="mb-10"/>
-                <span className="font-barlow font-normal text-sm text-white">Nos siga:</span>
-                <div className="flex gap-[20px] mt-3">
+            <div className="pl-8 text-center mt-16">
+                <img src={FinalSectionLogo} alt="" className="mb-7 -mt-5"/>
+                <span className="font-barlow font-normal text-sm text-white text-center">Nos siga:</span>
+                <div className="flex gap-[20px] mt-3 justify-center">
                     <div className="text-2xl cursor-pointer text-white">
                         <BsFacebook className="hover:text-orange1"/>
                     </div>
@@ -24,34 +28,32 @@ const FinalSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col">
-                <h4 className="font-barlow font-bold text-base text-white uppercase">Blackskull USA</h4>
-                <span className="font-barlow font-normal text-sm text-gray1">Sobre Nós</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Black Skull é confiável?</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Atletas Black Skull</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Nosso Blog</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Seja um Revendedor</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Entre em Contato</span>
+            <div className="flex flex-col mt-16">
+                <h4 className="font-barlow font-bold text-base text-white uppercase mb-3 cursor-pointer">Blackskull USA</h4>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Sobre Nós</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Black Skull é confiável?</span>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Atletas Black Skull</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Nosso Blog</span>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Seja um Revendedor</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Entre em Contato</span>
             </div>
-            <div className="flex flex-col">
-                <h4 className="font-barlow font-bold text-base text-white uppercase">Institucional</h4>
-                <span className="font-barlow font-normal text-sm text-gray1">Trocas e devoluções</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Política de Entregas</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Política de Privacidade</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Política de Cancelamentos</span>
+            <div className="flex flex-col mt-16">
+                <h4 className="font-barlow font-bold text-base text-white uppercase mb-3">Institucional</h4>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Trocas e devoluções</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Política de Entregas</span>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Política de Privacidade</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Política de Cancelamentos</span>
             </div>
-            <div className="flex flex-col border-r-[2px] border-r-solid border-r-dark3">
-                <h4 className="font-barlow font-bold text-base text-white uppercase">Afiliados</h4>
-                <span className="font-barlow font-normal text-sm text-gray1">Programa de Afiliados</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Desconto para Militares</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Benefícios para
-Profissionais da Saúde</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Benefícios para
-Profs. de Educação Física</span>
-                <span className="font-barlow font-normal text-sm text-gray1">Assinaturas</span>
+            <div className="flex flex-col mt-16 w-[160px]">
+                <h4 className="font-barlow font-bold text-base text-white uppercase mb-3">Afiliados</h4>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Programa de Afiliados</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Desconto para Militares</span>
+                <span className="font-barlow font-normal text-sm text-gray1 cursor-pointer">Benefícios para Profissionais da Saúde</span>
+                <span className="font-barlow font-normal text-sm text-gray1 mt-3 cursor-pointer">Benefícios para Profs. de Educação Física</span>
+                <span className="font-barlow font-normal text-sm text-gray1 leading-[45px] cursor-pointer">Assinaturas</span>
             </div>
-            <div className="w-[353px] flex flex-col items-center border-l-[2px] border-l-solid border-l-dark3">
-                <div className="flex flex-col items-center text-center">
+            <div className="w-[353px] z-10 flex flex-col items-center border-l-[1px] border-l-solid border-l-dark3">
+                <div className="flex flex-col items-center text-center mt-16">
                     <h1 className="w-[140px] font-roboto_condensed font-bold italic text-[32px] text-white uppercase">fique por <span className="text-orange1">dentro</span></h1>
                     <p className="font-barlow font-normal text-sm text-gray1 mt-[16px] w-[260px]">Inscreva-se e seja o primeiro a saber sobre as novidades, promoções e muito mais!</p>
                 </div>
@@ -64,8 +66,18 @@ Profs. de Educação Física</span>
                         className="h-10 w-[138px] bg-orange1 hover:bg-orange2 rounded font-barlow font-bold text-sm text-black1 mt-[24px]">
                             ENVIAR
                     </button>
-
                 </div>
+            <div className="absolute w-[202px] mr-[1460px] mt-[320px]">
+                <h4 className="font-barlow font-bold text-base text-white uppercase mb-3">Formas de pagamento</h4>
+                <img src={CCLogos} alt="" />
+            </div>
+            <div className="absolute mr-[1080px] mt-[320px]">
+                <h4 className="font-barlow font-bold text-base text-white uppercase mb-3">Segurança</h4>
+                <div className="flex gap-1">
+                    <img src={VtexColor} alt="" />
+                    <img src={Ebit} alt="" />
+                </div>
+            </div>
             </div>
         </div>
     )
