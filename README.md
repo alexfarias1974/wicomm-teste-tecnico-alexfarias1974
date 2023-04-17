@@ -27,10 +27,10 @@ yarn dev
 ```
 ## Layout
 
-<img src="https://github.com/alexfarias1974/teste-tecnico-kenzie-alexfarias1974/blob/main/src/assets/picture1.png" width=400px />
-<img src="https://github.com/alexfarias1974/teste-tecnico-kenzie-alexfarias1974/blob/main/src/assets/picture2.png" width=400px />
-<img src="https://github.com/alexfarias1974/teste-tecnico-kenzie-alexfarias1974/blob/main/src/assets/picture3.png" width=400px />
-<img src="https://github.com/alexfarias1974/teste-tecnico-kenzie-alexfarias1974/blob/main/src/assets/picture4.png" width=400px />
+<img src="https://user-images.githubusercontent.com/99928629/232615064-23207995-c324-42d5-a092-4576baa473e6.png" width=400px />
+<img src="https://user-images.githubusercontent.com/99928629/232615068-91947275-5867-435d-9d27-40c98240fc6c.png" width=400px />
+<img src="https://user-images.githubusercontent.com/99928629/232615073-c8c3d44d-40e7-43a8-8972-9e8e1d6cd524.png" width=400px />
+<img src="https://user-images.githubusercontent.com/99928629/232615076-f0df6d1f-c215-4919-9f0e-a6ebfb08e61a.png" width=400px />
 
 
 ## Deploy
