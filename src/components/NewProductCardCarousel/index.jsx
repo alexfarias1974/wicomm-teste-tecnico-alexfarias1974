@@ -18,7 +18,7 @@ const NewProductCardCarousel = () => {
     return (
         <>
             <div className="flex justify-center font-roboto_condensed font-bold italic text-[32px] text-dark1 mt-16">
-                    <h1>LANÇAMENTOS</h1>
+                <h1>LANÇAMENTOS</h1>
             </div>
             <div className="product-carousel relative overflow-hidden py-2 px-[70px] ">
 
