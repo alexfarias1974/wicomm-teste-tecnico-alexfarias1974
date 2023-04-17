@@ -36,7 +36,7 @@ yarn dev
 ## Deploy
 
 O deploy da aplicação foi feito com o `Vercel`.\
-https://teste-tecnico-kenzie-alexfarias1974.vercel.app/
+https://wicomm-teste-tecnico-alexfarias1974.vercel.app/
 
 ## Stacks utilizadas
 
