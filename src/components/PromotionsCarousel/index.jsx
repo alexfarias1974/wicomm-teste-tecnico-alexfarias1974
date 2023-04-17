@@ -30,7 +30,7 @@ const PromotionsCarousel = () => {
                     <HiArrowRight/>
                 </span>
 
-                <div className="product-contain py-0 px-[10px] flex overflow-x-hidden overflow-y-hidden scroll-smooth border-2 gap-6 border-gray1">
+                <div className="product-contain py-0 px-[10px] flex overflow-x-hidden overflow-y-hidden scroll-smooth gap-4">
                     {newProducts.map((product) => (
                         <NewProductCard 
                             key={product.id}

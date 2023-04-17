@@ -4,7 +4,7 @@ import React from "react";
 const NewProductCard = ({newImg, newName, description, price, paymentConditions}) => {
     return (
         <>        
-                <div className="w-[277px] h-[341px] border-2 border-dark3 rounded">
+                <div className="w-[277px] h-[341px] border-2 border-background rounded">
                     <div className="flex justify-center mt-8 mb-6">
                         <picture>
                             <img className="w-40" src={newImg} alt={newName} />
@@ -29,28 +29,3 @@ const NewProductCard = ({newImg, newName, description, price, paymentConditions}
 }
 
 export default NewProductCard;
-
-// const NewProductCard = ({img, name, description, price, paymentConditions}) => {
-//     return (
-//         <div className="container">
-//             <div className="card">
-//                 <div className="image">
-//                     <picture>
-//                         <img src={img} alt={name} />
-//                     </picture>
-//                 </div>
-//                 <div>
-//                     <h3>
-//                         {description}
-//                     </h3>
-//                     <h2>
-//                         {price}
-//                     </h2>
-//                     <h4>
-//                         {paymentConditions}
-//                     </h4>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }

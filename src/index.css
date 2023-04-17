@@ -85,7 +85,6 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -129,7 +128,6 @@ table {
 
 .img-container {
   overflow: hidden;
-  border: 2px solid #000;
 }
 
 .img-container img {
@@ -146,13 +144,13 @@ table {
 }
 
 .img-container:hover img {
-  height: 100vh;
+  height: 200px;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 .img-container:hover .moveArrow {
-  transform: translateX(35px);
+  transform: translateX(45px);
   transition: all 0.3s ease-in-out;
 }
 
@@ -166,7 +164,7 @@ table {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(30px);
+    transform: translateX(0px);
   }
 }
 
@@ -186,9 +184,6 @@ table {
   animation-delay: 1000ms;
 }
 
-.box-arrow {
-}
-
 @keyframes moveToRight {
   from {
     transform: translateX(0px);
@@ -196,4 +191,22 @@ table {
   to {
     transform: translateX(100px);
   }
+}
+
+.blog-bg {
+  background: linear-gradient(180deg, #3a3a3c 0%, #0b0b0b 101.48%);
+}
+
+.freight-bg {
+  background: linear-gradient(213.8deg, #9a9a9a -17.86%, #0b0b0b 73%);
+}
+
+.rotate-package:hover img {
+  transition: 500ms ease;
+  transform: translate(0, -30px) rotate(80deg);
+}
+
+.rotate-dollar:hover img {
+  transition: 500ms ease;
+  transform: translate(0, -30px) rotate(-160deg);
 }
