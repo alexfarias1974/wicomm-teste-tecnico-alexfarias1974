@@ -42,20 +42,20 @@ const NavBar = () => {
                 <input 
                     type="text"
                     placeholder="Buscar"
-                    className="h-10 w-[216px] font-medium text-xs text-gray1 bg-dark1 border border-solid border-dark3 rounded"
+                    className="h-10 w-[216px] font-medium text-xs text-gray1 bg-dark1 border border-solid border-dark3 rounded pl-2"
                 />
                 <span className="absolute z-10 ml-[190px] text-gray1 text-xl focus:text-dark1">
                     <FiSearch />
                 </span>
             </div>
             <div className="flex gap-3 text-2xl">
-                <span className="text-gray1 cursor-pointer">
+                <span className="text-gray1 cursor-pointer hover:text-white">
                     <CgProfile />
                 </span>
-                <span className="text-gray1 cursor-pointer ">
+                <span className="text-gray1 cursor-pointer hover:text-white">
                     <AiOutlineStar />
                 </span>
-                <span className="text-gray1 cursor-pointer">
+                <span className="text-gray1 cursor-pointer hover:text-white">
                     <BsCart3 />
                 </span>
             </div>
