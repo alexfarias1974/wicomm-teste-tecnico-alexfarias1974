@@ -1,8 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Carousel } from "react-bootstrap";
-import ImgCarousel from "../../assets/main_carousel_img.png"
-import Button from "../Button"
+import ImgCarousel from "../../assets/main_carousel_img.png";
+import Button from "../Button";
+import "../../index.css";
 
 const MainCarousel = () => {
     return (
