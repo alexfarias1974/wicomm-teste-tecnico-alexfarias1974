@@ -11,7 +11,7 @@ const Header = () => {
             <picture>
                 <img src={IconTruck} alt="IconTruck + Frete gratis" />
             </picture>
-            <span className="text-orange1 cursor-pointer">BLOG.BLACKSKULL</span>
+            <span className="text-orange1 cursor-pointer mr-[-750px]">BLOG.BLACKSKULL</span>
             <div className="">
                 <a href="#" className="btn">
                     <img src={BackTop} alt=""/>
